@@ -1,0 +1,544 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+
+/*
+    -> LOGO & TITLE 
+*/
+
+
+.logo{
+    background-color:#08b1ae;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    padding: 5px 10%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.logo > img{
+    height: 140px;
+    width: auto;
+}
+
+.logo h1{
+    margin: 15px;
+    font-size: 1.5rem;
+}
+
+
+/*
+    -> NAV
+*/
+
+
+.nav{
+    background-color:#02CECB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    padding: 5px 10%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.nav .navbar{
+    list-style: none;
+}
+
+.nav .navbar li{
+    display: inline-flex;
+    padding: 0 20px;
+}
+
+.nav .navbar a{
+    font-size: 700;
+    color: black;
+    text-decoration: none;
+}
+
+.nav .navbar li:hover{
+    transition-duration: .3s, .8s; 
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+.nav .navbar li a:hover{
+    color: #FFFDF7;
+}
+
+.nav .navbar .page{
+    font-weight: 700;
+    color: #211915;
+    padding: 8px 20px;
+    background: #FDD85D;
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+
+/*
+    -> HOME & ABOUT
+*/
+
+
+.main{
+    background-color:#FFFDF7;
+    
+}
+
+.main h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 1.3rem;
+}
+
+.main .img3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.main .img3 > img{
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+}
+
+.main .section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .section h3{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 6px;
+}
+.main .section a{
+    color: black;
+    text-decoration:underline;
+    font-weight: bold;
+}
+
+.main .section .imgart{
+    display: flex;
+    justify-content: center;
+}
+.main .section img{
+    width: auto;
+    height: 300px;
+    margin: 15px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.main .section img:hover{
+    transition-duration: .3s, .8s; 
+    transform: scale(1.03);
+}
+
+.main .section .secabout{
+    width: 600px;
+    text-align: center;
+}
+
+
+/*
+    -> CONTACT
+*/
+
+
+.main .section .seccontact{
+    width: 600px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/*
+    -> GAME_INFO
+*/
+
+
+.main .gameinfo_sub{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.main table{
+    background-color: #FDD85D ;
+    border-collapse: collapse;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.main thead{
+    background-color: #ffc919;
+    border-bottom: solid 5px black;
+    color: black;
+}
+
+.main .gameinfo_tabla{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    text-align: left;
+}
+
+.main .gameinfo_tabla th, td{
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.main .gameinfo_tabla .tdcenter{
+    text-align: center;
+}
+
+.main .game_infoadditional{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+
+.main .game_infoadditional p{
+    max-width: 800px;
+    margin: 10px;
+}
+
+.main .game_infoadditional a{
+    text-decoration: underline;
+    color: black;
+}
+
+.main .game_infoMaps1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+
+.main .game_infoMaps1 p{
+    text-align: center;
+    padding: 15px;
+}
+
+.main iframe{
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.main .game_infoMaps2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+
+.main .game_infoMaps2 p{
+    text-align: center;
+    padding: 15px;
+}
+
+.main .oneColor{
+    background-color:#ffd23d;
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.main .twoColor{
+    background-color:#23ddd9;
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+/*
+    -> RULES
+*/
+
+
+.main .rules{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.main .rules2part{
+    width: 700px;
+    padding: 15px;
+    margin: 10px;
+}
+
+.main .space{
+    text-indent: 2em; 
+    padding: 15px;
+}
+
+.main .rules2part li{
+    padding: 10px;
+}
+
+.main .rules2part .rules3 li{
+    list-style-type: lower-latin;
+    padding: 2px;
+}
+
+.main .rules3{
+    margin-left: 1rem;
+}
+
+.main .rules3part{
+    width: 700px;
+}
+
+.main .rules3part .circle li{
+    margin-left: 3rem;  list-style-type: circle;
+}
+
+
+/*
+    -> REGISTRATION
+*/
+
+
+.registration{
+    background-color:#f4f4f4;
+    padding: 10px;
+    max-width: 900px;
+    margin: auto;
+    border: 1.5px solid #ffc919;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.main .registration fieldset {
+    padding: 10px;
+    margin: 10px;
+    border: none;
+}
+
+.main .registration fieldset input{
+    border-radius: 5px;
+}
+
+.main .registration fieldset .name{
+    margin-bottom: 10px;
+} 
+.main .registration fieldset .name input{
+    margin-right: 1rem;
+} 
+
+.main .registration fieldset .streetAddress{
+    margin-bottom: 10px;
+} 
+  
+.main .registration fieldset .cityZip{
+    margin-bottom: 10px;
+} 
+.main .registration fieldset .cityZip input{
+    margin-right: 1rem;
+} 
+  
+.main .registration fieldset .birthDate{
+    margin-bottom: 10px;
+} 
+
+.main .registration fieldset .gender{
+    margin-bottom: 10px;
+} 
+
+.main .registration fieldset .gender label{
+    margin-top: 4px;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    padding: 5px 15px 5px 15px;
+    background-color: #ffc919;
+    border-radius: 15px;
+}
+
+.main .registration fieldset .grade{
+    margin-bottom: 10px;
+} 
+.main .registration fieldset .grade label{
+    margin-top: 4px;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    padding: 5px 15px 5px 15px;
+    background-color: #ffc919;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.main .registration fieldset h3{
+    text-align: center;
+}
+
+.main .registration fieldset .liveSchool label{
+    margin-top: 4px;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    padding: 5px 15px 5px 15px;
+    background-color: #ffc919;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.main .registration fieldset .positionCheck label{
+    margin-top: 4px;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    padding: 5px 15px 5px 15px;
+    background-color: #ffc919;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.main .registration fieldset .uniform label{
+    margin-top: 4px;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    padding: 5px 15px 5px 15px;
+    background-color: #ffc919;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.main .registration fieldset .permissionToPlaytext h3{
+    margin-bottom: 10px;
+}
+
+.main .registration fieldset .permissionToPlayParent {
+    margin-top: 25px;
+}
+
+.main .registration fieldset .permissionToPlayDate {
+    margin-top: 12px;
+}
+
+.main .registration .buttonEnviar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .registration .buttonEnviar input{
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    padding: 5px 40px 5px 40px;
+    border: none;
+    background-color: #ffc919;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    font-weight: bold;
+}
+
+.main .registration .buttonEnviar input:hover{
+    transition-duration: .3s, .8s; 
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width:767px){
+    .logo h1{
+        font-size:1.1rem;
+        text-align: center;
+    }
+
+
+    .nav{
+        height: 13rem;
+        text-align: center;
+    }
+    .navbar li{
+        margin: 8px;
+    }
+    .nav ul{
+        height: 100%;
+        display: flex;
+        flex-direction: column;    
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .main .imgart img{
+        width: 260px;
+        height: auto;
+    }
+    .main .section p{
+        margin: 10px;
+    }
+
+    .main .secabout img{
+        width: 14rem;
+        height: auto;
+    }
+
+    .main .seccontact img{
+        width: 260px;
+        height: auto;
+    }
+
+
+    .main .gameinfo_tabla th, td{
+        font-size: 13px;
+    }
+
+    .main iframe{
+        width:fit-content;
+        height: 280px;
+    }
+    .main .oneColor {
+        margin-bottom: 20px;
+    }
+    .main .twoColor {
+        margin-bottom: 20px;
+    }
+
+    .main .rules2part{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+    }
+
+    .main .rules3part{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+    }
+
+}
+
+@media only screen and (min-width:768px)and (max-width:1023px){
+    .nav{
+        height: 80px;
+    }
+
+}
